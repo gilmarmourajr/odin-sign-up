@@ -15,6 +15,7 @@
 body {
     width: 100%;
     height: 100vh;
+    display: flex;
 }
 
 #logo-body {
@@ -24,7 +25,6 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    position: absolute;
     color: white;
 }
 
@@ -61,4 +61,26 @@ body {
 
 #logo-body a:hover {
     color: palevioletred;
+}
+
+#content {
+    width: 65%;
+    display: flex;
+    background-color:#eeeeee;
+}
+
+.title {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    border: 1px solid red;
+    padding: 0 40px;
+}
+
+.title p {
+    margin-right: 10%;
+    font-size: 1.4em;
 }
