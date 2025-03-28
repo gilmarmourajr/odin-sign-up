@@ -120,6 +120,7 @@ input[type='password'] {
     background-color: #f3f3f3;
     border: 1px solid #E5E7EB;
     border-radius: 3px;
+    padding: 0 10px;
 }
 
 input[type='password']:invalid {
